@@ -356,21 +356,21 @@ const initApp = () => {
   console.log(currentPath);
   switch (currentPath) {
     case '/':
-    case '/index.html':
+    case '/index':
       initSwiper();
       getNowPlaying();
       getPopularMovies();
       break;
-    case '/shows.html':
+    case '/shows':
       getPopularShows();
       break;
-    case '/movie-details.html':
+    case '/movie-details':
       getMovieDetails();
       break;
-    case '/tv-details.html':
+    case '/tv-details':
       getShowDetails();
       break;
-    case '/search.html':
+    case '/search':
       searchTerm();
   }
 };
