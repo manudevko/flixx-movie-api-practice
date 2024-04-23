@@ -353,6 +353,7 @@ const searchTerm = () => {
 const initApp = () => {
   const currentPath = global.currentPath;
   highlightLinks();
+  console.log(currentPath);
   switch (currentPath) {
     case '/':
     case '/index.html':
